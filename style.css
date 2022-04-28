@@ -129,3 +129,21 @@ margin-top: 1rem;
     background-image: url('./img/googleplay.png');
 }
 
+@media (max-width: 1024px) {
+    .instagram-wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px){
+    .instagram-wrapper {
+        width: 90%;
+    }
+    .celular {
+    display: none;
+    }
+    
+    .instagram-continue{
+        width: 100%;
+    }
+}
